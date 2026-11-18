@@ -1,0 +1,68 @@
+/* Removes the browser's default spacing from all elements. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles the overall webpage background */
+body{
+    background-color: #CECEF5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #292929;
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    min-height: 85vh;
+    margin: 40px auto;
+    background-color: #F8F8FC;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+.logo{
+    text-decoration: none;
+    color: #5B35E8;
+    font-size: 14px;
+    font-weight: bold;
+}
+.logo-icon{
+    font-size: 13px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+     gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #292929;
+    font-size: 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #5B35E8;
+}
+
+.hire-btn{
+    background-color: #5B35E8;
+    color: white;
+    text-decoration: none;
+    padding: 5px 13px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover{
+    background-color: #4020C0;;
+}
